@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/fabianomtlopes/.nvm/versions/node/v16.15.1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js add typrescript ts-node-dev @types/express @types/jsonwebtoken @types/bcrypt -D
+
+PATH: 
+  /Users/fabianomtlopes/.serverless/bin:/Users/fabianomtlopes/.nvm/versions/node/v16.15.1/bin:/Users/fabianomtlopes/.nvm/versions/node/v16.15.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/fabianomtlopes/.serverless/bin:/Users/fabianomtlopes/.nvm/versions/node/v16.15.1/bin:/Volumes/HD2/Android/Sdk/emulator:/Volumes/HD2/Android/Sdk/tools:/Volumes/HD2/Android/Sdk/tools/bin:/Volumes/HD2/Android/Sdk/platform-tools:/Volumes/HD2/Android/Sdk/emulator:/Volumes/HD2/Android/Sdk/tools:/Volumes/HD2/Android/Sdk/tools/bin:/Volumes/HD2/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typrescript: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:66988:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:140749:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141721:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:141643:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "projetoPrisma",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
